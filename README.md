@@ -1,3 +1,5 @@
+## to run this lab: cd into LabProject and then use 'python manage.py runserver'
+
 # LAB-Django-Templates-Resolving-URLS-Static
 
 
