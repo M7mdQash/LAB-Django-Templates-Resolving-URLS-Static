@@ -12,6 +12,17 @@
     <link rel="stylesheet" href="{% static 'css/style.css' %}">
     {% block extra_head %}{% endblock %}
 </head>
+    <nav class="top-nav">
+        <div class="top-nav-links">
+            <a href="https://mail.google.com" target="_blank">Gmail</a>
+            <a href="https://www.google.com/imghp" target="_blank">Images</a>
+            <button class="icon-btn" title="Google apps">
+                <span class="material-symbols-outlined">apps</span>
+            </button>
+            <a href="https://accounts.google.com" target="_blank" class="signin-btn">Sign in</a>
+        </div>
+    </nav>
+
 <body>
     {% block body %}{% endblock %}
 </body>
